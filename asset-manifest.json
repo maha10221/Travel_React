@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Travel_React/static/css/main.f3b6c019.css",
+    "main.js": "/Travel_React/static/js/main.6fc50e43.js",
+    "static/js/787.39019643.chunk.js": "/Travel_React/static/js/787.39019643.chunk.js",
+    "static/media/suspension-bridge.jpg": "/Travel_React/static/media/suspension-bridge.efcecf2a6bf821607385.jpg",
+    "static/media/parliament.jpg": "/Travel_React/static/media/parliament.aea1c419eade61a40217.jpg",
+    "static/media/mt-fuji.jpg": "/Travel_React/static/media/mt-fuji.b762b2fe4a3ff7584a0b.jpg",
+    "static/media/jasper.jpg": "/Travel_React/static/media/jasper.4c6f61a850c9d3aa96ae.jpg",
+    "static/media/jellyfish.jpg": "/Travel_React/static/media/jellyfish.24fdd715175fb95ca0ba.jpg",
+    "static/media/opera-house.jpg": "/Travel_React/static/media/opera-house.8ccf97833b8426e4d364.jpg",
+    "static/media/Banff.jpg": "/Travel_React/static/media/Banff.1a9298f2d26824d63483.jpg",
+    "index.html": "/Travel_React/index.html",
+    "static/media/pin.svg": "/Travel_React/static/media/pin.1f226562855444fb8b7486883ccc7a0c.svg",
+    "main.f3b6c019.css.map": "/Travel_React/static/css/main.f3b6c019.css.map",
+    "main.6fc50e43.js.map": "/Travel_React/static/js/main.6fc50e43.js.map",
+    "787.39019643.chunk.js.map": "/Travel_React/static/js/787.39019643.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3b6c019.css",
+    "static/js/main.6fc50e43.js"
+  ]
+}
