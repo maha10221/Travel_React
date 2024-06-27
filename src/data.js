@@ -1,5 +1,19 @@
 const data = [
     {
+        id: 3,
+        title: "Charminar",
+        class: "charminar",
+        location: "India",
+        googleMapsUrl:
+            "https://www.google.com/maps/place/Charminar/@17.3615632,78.4737503,17z/data=!3m1!4b1!4m5!3m4!1s0x3bcb977f4f0ffb3f:0xdf05d491fa40694c!8m2!3d17.3615632!4d78.475939",
+        startDate: "10 Mar, 2022",
+        endDate: "20 Mar, 2022",
+        description:
+            "The Charminar is a historic monument and mosque located in Hyderabad, Telangana, India. Constructed in 1591, the structure is an iconic symbol of Hyderabad and stands at the heart of the city's bustling old quarter.",
+        imageUrl: require("./images/charminar1.jpg"),
+    },
+    
+    {
         id: 1,
         title: "Vancouver Aquarium",
         class: "vancouver-aquarium",
@@ -14,6 +28,19 @@ const data = [
     },
     {
         id: 2,
+        title: "Taj Mahal",
+        class: "taj-mahal",
+        location: "India",
+        googleMapsUrl:
+            "https://www.google.com/maps/place/Taj+Mahal/@27.1750151,78.0399665,17z/data=!3m1!4b1!4m5!3m4!1s0x397371d3a1c90c75:0x76db18f1e83d923d!8m2!3d27.1750151!4d78.0421552",
+        startDate: "01 Feb, 2022",
+        endDate: "14 Feb, 2022",
+        description:
+            "The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in the Indian city of Agra. It was commissioned in 1632 by the Mughal emperor Shah Jahan to house the tomb of his favorite wife, Mumtaz Mahal.",
+        imageUrl: require("./images/tajmahal.jpg"),
+    },
+    {
+        id: 3,
         title: "Jasper National Park",
         class: "jasper",
         location: "Canada",
@@ -26,7 +53,7 @@ const data = [
         imageUrl: require("./images/jasper.jpg"),
     },
     {
-        id: 3,
+        id: 4,
         title: "Capilano Suspension Bridge",
         class: "suspension-bridge",
         location: "Canada",
@@ -39,7 +66,7 @@ const data = [
         imageUrl: require("./images/suspension-bridge.jpg"),
     },
     {
-        id: 4,
+        id: 5,
         title: "Vermilion Lakes",
         class: "banff",
         location: "Canada",
@@ -52,7 +79,7 @@ const data = [
         imageUrl: require("./images/Banff.jpg"),
     },
     {
-        id: 5,
+        id: 6,
         title: "Parliament Hill",
         class: "parliament",
         location: "Canada",
@@ -65,7 +92,7 @@ const data = [
         imageUrl: require("./images/parliament.jpg"),
     },
     {
-        id: 6,
+        id: 7,
         title: "Mount Fuji",
         class: "mt-fuji",
         location: "Japan",
@@ -78,7 +105,7 @@ const data = [
         imageUrl: require("./images/mt-fuji.jpg"),
     },
     {
-        id: 7,
+        id: 8,
         class: "opera-house",
         title: "Sydney Opera House",
         location: "Australia",
@@ -89,7 +116,9 @@ const data = [
         description:
             "The Sydney Opera House is a multi-venue performing arts centre in Sydney. Located on the banks of the Sydney Harbour, it is often regarded as one of the 20th century's most famous and distinctive buildings.",
         imageUrl: require("./images/opera-house.jpg"),
-    },
+    }
+  
+    
 ];
 
 export default data;
