@@ -3,7 +3,7 @@ function Footer() {
         <footer>
             <p>
                 Created with ❤️ by &nbsp;
-                <a className="website-link" href="https://linktr.ee/mahesh_10221">
+                <a className="website-link" href="https://maha10221.github.io/Portfolio/">
                     Mahesh babu
                 </a>
             </p>
