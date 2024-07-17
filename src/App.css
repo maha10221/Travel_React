@@ -5,6 +5,44 @@
 	margin: 2% auto;
 
 }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Background color for the entire page */
+}
+
+
+.pagination {
+	text-align: center; 
+
+    margin-top: 20px; /* Margin from the top */
+}
+
+.pagination button {
+	text-align: center; 
+    background-color: #8e979b; /* Match navbar color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.pagination button:hover {
+    background-color: #15c0e7; /* Darker shade on hover */
+}
+
+.pagination button:first-child {
+    margin-right: 10px; /* Right margin for the "Previous Page" button */
+}
+
+.pagination button:last-child {
+    margin-left: 10px; /* Left margin for the "Next Page" button */
+}
+
 
 /* Navbar Component */
 nav {
@@ -14,7 +52,7 @@ nav {
 	padding: 1.7em 2.4em;
 	margin-bottom: 1em;
 	box-shadow: 0px 2.98256px 7.4564px rgba(255, 82, 82, 0.397);
-	background-color: #F55A5A;
+	background-color: #15c0e7;
 }
 
 h1 {
@@ -35,77 +73,88 @@ h1 {
 
 /* Card Component */
 .cards-list {
-	display: flex;
-	flex-direction: column;
-	box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
-	background-color: #fffbf4;
-	border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    background-color: #fffbf4;
+    border-radius: 10px;
 }
 
 .card {
-	color: #2B283A;
-	display: flex;
-	padding: 3em;
+    color: #2B283A;
+    display: flex;
+    padding: 3em;
+    transition: box-shadow 0.3s ease;
 }
 
 .card:not(:last-child) {
-	box-shadow: 0px 45px 4px -45px #cacaca;
+    box-shadow: 0px 45px 4px -45px #cacaca;
 }
 
 .card-image-div {
-	margin-right: 3em;
+    margin-right: 3em;
+    position: relative; /* Ensure relative positioning for absolute overlay */
 }
 
 .card-image-div img {
-	width: 20vh;
-	border-radius: 9px;
-	margin-bottom: 9px;
+    width: 20vh;
+    border-radius: 9px;
+    margin-bottom: 9px;
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.card-image-div img:hover {
+    filter: brightness(0.8); /* Adjust brightness on hover */
+    transform: scale(1.1); /* Scale image on hover */
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Example shadow */
 }
 
 .card-text-div {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .card-location {
-	display: flex;
-	align-items: center;
-	max-height: 1em;
-	text-align: center;
+    display: flex;
+    align-items: center;
+    max-height: 1em;
+    text-align: center;
 }
 
 .grey {
-	margin: 0;
+    margin: 0;
 }
 
 .card-pin {
-	height: 0.8em;
+    height: 0.8em;
 }
 
 .location {
-	text-transform: uppercase;
-	letter-spacing: 0.2em;
-	padding-left: 0.4em;
-	padding-right: 1em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    padding-left: 0.4em;
+    padding-right: 1em;
 }
 
 a {
-	text-decoration: underline;
-	color: #918E9B;
-	text-underline-offset: 2px;
+    text-decoration: underline;
+    color: #918E9B;
+    text-underline-offset: 2px;
 }
 
 .card-title {
-	font-size: 2em;
-	font-weight: 700;
-	margin-top: 0.45em;
+    font-size: 2em;
+    font-weight: 700;
+    margin-top: 0.45em;
 }
 
 .card-date {
-	font-weight: 700;
-	font-size: 0.85em;
+    font-weight: 700;
+    font-size: 0.85em;
 }
+
+
 
 /* Card Component */
 
